@@ -12,8 +12,8 @@ const cursor = document.querySelector("#cursor");
 const game = document.querySelector('#game');
 const context = game.getContext('2d'); // Pour les pixels 
 const grid_context = game.getContext('2d'); // Pour la grille
-game.width = 1200; //1200 600
-game.height = 500;
+game.width = 1500; //1200 600
+game.height = 600;
 
 
 const size_cell = 10; // Taille d'un côté d'une case
